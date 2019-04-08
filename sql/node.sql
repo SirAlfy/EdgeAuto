@@ -7,7 +7,7 @@ user_id int unsigned auto_increment primary key
 create table message (
 message_id int unsigned auto_increment primary key,
 created datetime default CURRENT_TIMESTAMP,
-arb_id int unsigned,
+arb_id varchar(255),
 message varchar(255),
 latitude float,
 longitude float,
